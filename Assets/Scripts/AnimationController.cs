@@ -9,8 +9,8 @@ public class AnimationController : MonoBehaviour
     
     public void ResetAnimations()
     {
-        playerChoiceHandlerAnimation.Play("ShowHandler");
-        choiceAnimation.Play("RemoveChoices");
+        playerChoiceHandlerAnimation.Play("Show");
+        choiceAnimation.Play("Remove");
     }
 
     public void PlayerMadeChoice()

@@ -109,6 +109,7 @@ public class GameplayController : MonoBehaviour
         {
             infoText.text = "WIN";
             StartCoroutine(DisplayWinnerAndRestart());
+            Score.pscorevalue += 1;
 
             return;
         }
@@ -117,6 +118,7 @@ public class GameplayController : MonoBehaviour
         {
             infoText.text = "LOSE";
             StartCoroutine(DisplayWinnerAndRestart());
+            Score.escorevalue += 1;
 
             return;
         }
@@ -125,6 +127,7 @@ public class GameplayController : MonoBehaviour
         {
             infoText.text = "WIN";
             StartCoroutine(DisplayWinnerAndRestart());
+            Score.pscorevalue += 1;
 
             return;
         }
@@ -133,6 +136,7 @@ public class GameplayController : MonoBehaviour
         {
             infoText.text = "LOSE";
             StartCoroutine(DisplayWinnerAndRestart());
+            Score.escorevalue += 1;
 
             return;
         }
@@ -141,6 +145,7 @@ public class GameplayController : MonoBehaviour
         {
             infoText.text = "WIN";
             StartCoroutine(DisplayWinnerAndRestart());
+            Score.pscorevalue += 1;
 
             return;
         }
@@ -149,6 +154,7 @@ public class GameplayController : MonoBehaviour
         {
             infoText.text = "LOSE";
             StartCoroutine(DisplayWinnerAndRestart());
+            Score.escorevalue += 1;
 
             return;
         }
