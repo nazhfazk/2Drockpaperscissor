@@ -7,7 +7,7 @@ public class AnimationController : MonoBehaviour
     [SerializeField]
     private Animator playerChoiceHandlerAnimation, choiceAnimation;
     
-    public void ResetAnimation()
+    public void ResetAnimations()
     {
         playerChoiceHandlerAnimation.Play("ShowHandler");
         choiceAnimation.Play("RemoveChoices");

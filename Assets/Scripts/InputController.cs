@@ -37,7 +37,7 @@ public class InputController : MonoBehaviour
                 break;
         }
 
-        //gameplayController.SetChoices(selectedChoice);
+        gameplayController.SetChoices(selectedChoice);
         animationController.PlayerMadeChoice();
 
     }

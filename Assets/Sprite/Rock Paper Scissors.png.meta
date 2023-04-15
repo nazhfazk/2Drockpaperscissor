@@ -126,7 +126,7 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Scissor
+      name: Scissors
       rect:
         serializedVersion: 2
         x: 390
@@ -178,9 +178,9 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      Scissor: 1868901450
       Paper: 1177842669
       Rock: -997981380
+      Scissors: 1868901450
   spritePackingTag: 
   pSDRemoveMatte: 0
   pSDShowRemoveMatteOption: 0
